@@ -1,0 +1,326 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    transition: all 0.2s linear;
+}
+.img {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+   
+    background-size:100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
+.navbar{
+    display: flex;
+    color: aliceblue;
+
+}
+.left{
+    flex: 3;
+    display: flex;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    font-size: large;
+}
+.right{
+    flex:1;
+    display: flex;
+    gap: 3rem;
+    margin-top: 1.5rem;
+    color: aliceblue;
+}
+.NagAnchor{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+.body{
+    display: flex;
+    margin-top: 20rem;
+    margin-left: 5rem;
+}
+.StartButton{
+    margin-left: 10rem;
+    min-width: 150px;
+    min-height: 50px;
+    font-size: large;
+    border-radius: .5rem;
+    padding: .3rem;
+    cursor: pointer;
+    border-color: rgb(0, 0, 0);
+    
+}
+.StartButton:hover{
+    background-color: rgb(198, 43, 0);
+    
+}
+.text{
+    font-size: xx-large;
+    border-bottom: 3px solid rgb(14, 62, 0);
+    color: rgb(255, 255, 255);
+}
+.doublequotes{
+    color: rgb(255, 255, 255);
+}
+.NagAnchor:hover{
+    color: red;
+    font-size: 1.3rem;
+    padding: .1rem;
+}
+.about{
+    margin-top: 20rem;
+}
+.feature1{
+    height: 700px;
+}
+.img-2{
+    background-color: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./images/nutrition.jpeg);
+}
+ */
+
+ #desktop-nav, #hamburger-nav {
+    height: 90px; /* Adjust the height as needed */
+    /* border-bottom: 1px solid black; */
+    /* Add other styles as needed */
+}
+ .outer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh; 
+    /* border-bottom: 1px solid rgb(255, 0, 0); */
+}
+.right{
+    margin-right: 15rem;
+    /* order: 1px solid black; */
+    margin-bottom: 10rem;
+    width: 40rem;
+    
+    height: 25rem;
+}
+.content-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 08rem;
+}
+.middle-text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+.left{
+    /* border: 1px solid black; */
+    /* background-color: black; */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    margin-left: 20rem;
+    margin-bottom: 10rem;
+    height: 40rem;
+    width: 60rem;
+}
+.logo{
+    display: flex;
+    
+    margin-right: 60rem;
+}
+.utri{
+    margin-top: 1.5rem;
+    margin-left: -.2rem;
+}
+.v{
+    margin-top: .1rem;
+    margin-left:-.8rem;
+    position: relative;
+}
+.ision{
+    margin-top: 1.5rem;
+    margin-left: -.8rem;
+}
+.more-content{
+    /* margin-left: 50rem; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 20px; */
+    /* margin-bottom: 20rem; */
+    /* margin-top:60rem ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+    margin-top: 06rem;
+    font-size: 25px;
+}
+.title-about{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+.about1{
+    height: auto; /* Remove fixed height to allow content to determine height */
+    display: flex;
+    align-items: center; 
+    /* justify-content: space-around; Evenly distribute content horizontally */
+    /* border-top: 1px solid black; */
+    height: 45rem;
+}
+.about-right1{
+    flex: 1; /* Take up 1/3 of the available space */
+    padding: 1rem; /* Add padding for spacing */
+    margin-left: 5rem;
+    margin-top: 8rem;
+}
+.about-left1{
+    flex: 1; /* Take up 1/3 of the available space */
+    padding: 1rem; /* Add padding for spacing */
+}
+.about-content1{
+    font-size: 25px;
+    /* border: 1px solid black; */
+    margin-bottom: 10rem;
+    height: 31rem;
+    /* margin-right: 10rem; */
+    /* padding:10px; */
+}
+
+.about-content1 h3{
+    display: flex;
+    margin: auto;
+    /* margin-right: 10rem; */
+}
+
+.about2{
+    height: auto; /* Remove fixed height to allow content to determine height */
+    display: flex;
+    align-items: center; 
+    /* justify-content: space-around; Evenly distribute content horizontally */
+    /* border-top: 1px solid black; */
+    height: 35rem;
+}
+.about-right2{
+    flex: 1; /* Take up 1/3 of the available space */
+    padding: 1rem; /* Add padding for spacing */
+    margin-left: 5rem;
+    margin-top: 20px;
+}
+.about-left2{
+    flex: 1; /* Take up 1/3 of the available space */
+    padding: 1rem; /* Add padding for spacing */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+
+    
+}
+.about-content2{
+    font-size: 25px;
+    /* border: 1px solid black; */
+    height: 10rem;
+    margin-top: 6rem;
+    /* padding:10px; */
+}
+.about3{
+    height: auto; /* Remove fixed height to allow content to determine height */
+    display: flex;
+    align-items: center; 
+    /* justify-content: space-around; Evenly distribute content horizontally */
+    /* border-top: 1px solid black; */
+    height: 35rem;
+}
+.about-right3{
+    flex: 1; /* Take up 1/3 of the available space */
+    padding: 1rem; /* Add padding for spacing */
+    margin-left: 5rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    height: 20rem;
+}
+.about-left3{
+    flex: 1; /* Take up 1/3 of the available space */
+    padding: 1rem; /* Add padding for spacing */
+
+}
+.about-content3{
+    font-size: 25px;
+    /* border: 1px solid black; */
+    /* height: 30rem; */
+    margin-top: 6rem;
+    /* padding:10px; */
+}
+#track{
+    border: 1px solid black;
+}
+.about4{
+    height: auto; /* Remove fixed height to allow content to determine height */
+    display: flex;
+    align-items: center; 
+    /* justify-content: space-around; Evenly distribute content horizontally */
+    /* border-top: 1px solid black; */
+    height: 40rem;
+}
+.about-right4{
+    flex: 1; /* Take up 1/3 of the available space */
+    padding: 1rem; /* Add padding for spacing */
+    margin-left: 5rem;
+}
+.about-left4{
+    flex: 1; /* Take up 1/3 of the available space */
+    padding: 1rem; /* Add padding for spacing */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    height: 20rem;
+}
+.about-content4{
+    font-size: 25px;
+    /* border: 1px solid black; */
+    height: 30rem;
+    margin-top: 3rem;
+    /* padding:10px; */
+}
+
+.about-content4 h3{
+    display: flex;
+    margin: auto;
+    /* margin-right: 10rem; */
+}
+.about-image{
+    /* border: 1px solid black; */
+}
+.about-image {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+}
+.about-content{
+    font-size: 25px;
+    /* border: 1px solid black; */
+    height: 30rem;
+    /* padding:10px; */
+}
+.analysis-access{
+    margin-left: 10rem;
+    width: auto;
+}
+.acess-1{
+    margin-left: 3rem;
+    /* border: 1px solid black; */
+}
+.start-button{
+    min-width: 180px;
+    min-height: 40px;
+    background-color: rgba(255, 98, 0, 0.886);
+    /* border-color: orange; */
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.start-button:hover{
+    color: aliceblue;
+}

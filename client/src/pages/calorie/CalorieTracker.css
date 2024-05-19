@@ -1,0 +1,46 @@
+.tracker-container{
+    /* padding: 10px; */
+    margin-left: 33rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* width: 55vw; */
+    margin-bottom: 40px;
+    background-color: blue;
+}
+
+.track-input{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.title-form{
+    margin-top: 2rem;
+}
+.submit-button{
+    margin-left: 2.5rem;
+    min-width: 100px;
+    min-height: 35px;
+    cursor: pointer;
+}
+.entire-content {
+    /* position: relative;     */
+    background-size: cover;
+    
+}
+/* .calorie-form{
+    background-color: rgb(194, 97, 0);
+} */
+.entire-content .tracker-container {
+    position: relative;
+    z-index: 1; /* Ensure the content is above the background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 25vw;
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px; /* Add padding to the form */
+}
